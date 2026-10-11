@@ -6,7 +6,7 @@ bits, utilizando a biblioteca GMP. Sua implementação deve ter dois programas q
 **1. Gerar um par de chaves RSA** e apresentar a chave na saída padrão com os parâmetros
 na seguinte ordem, um por linha:
 
-- Base (base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
+- Base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
 - Módulo (valor de ‘n’ na base indicada)
 - Expoente público (valor de ‘e’ na base indicada)
 - Expoente privado (valor de ‘d’ na base indicada)
@@ -20,10 +20,9 @@ programa.
 
 ---
 
-**2. Realizar a cifragem ou decifragem RSA**, utilizando o algoritmo do Quadrado e Multiplicação e receber os
-seguintes parâmetros da entrada padrão, um por linha:
+**2. Realizar a cifragem ou decifragem RSA**, utilizando o algoritmo do Quadrado e Multiplicação e receber os seguintes parâmetros da entrada padrão, um por linha:
 
-- Base (base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
+- Base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
 - Módulo (valor de ‘n’ na base indicada)
 - Expoente (valor de ‘e’ ou ‘d’ na base indicada)
 - Mensagem (valor de ‘m’ ou ‘c’ na base indicada)
@@ -35,5 +34,5 @@ c = m<sup>e</sup> mod n \
 m = c<sup>d</sup> mod n
 
 O algoritmo deve apresentar na saída padrão:
-- Base (base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
+- Base numérica utilizada para apresentar os parâmetros: 10 (decimal), 16 (hexa)
 - Mensagem (valor de ‘m’ ou ‘c’ na base indicada)
