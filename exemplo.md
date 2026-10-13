@@ -1,12 +1,17 @@
 # Exemplo de uso
 
 **1. Preparação do ambiente**
-    A partir de 'make all', temos os executáveis 'rsa' e 'gerarchaves'. Depois, 'make run' para gerar as chaves.
+    A partir de `make all`, temos os executáveis `rsa` e `gerarchaves`. Depois, `make run` para gerar as chaves. Por padrão, tem-se a chave de 2048 bits, mas pode ser alterado em `make run`, exemplo:
+
+    ```bash
+    make run BITS=1024
+    ```
+
 
 ---
 
 **2. Geração de chaves**
-    Com o primeiro passo feito, temos as informações necessárias no arquivo texto 'chaves.txt'. No teste foi obtido:
+    Com o primeiro passo feito, temos as informações necessárias no arquivo texto `chaves.txt`. No teste foi obtido:
 
     10
     
