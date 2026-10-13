@@ -4,6 +4,9 @@ LIBS = -lgmp
 
 all: rsa gerar_chaves
 
+run: gerar_chaves
+	./gerar_chaves > chaves.txt
+
 rsa: rsa.c
 	$(CC) $(CFLAGS) rsa.c -o rsa $(LIBS)
 
