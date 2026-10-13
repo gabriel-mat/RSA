@@ -1,12 +1,12 @@
 # Exemplo de uso
 
 **1. Preparação do ambiente**
-    A partir de 'make all', temos os executáveis 'rsa' e 'gerarchaves'.
+    A partir de 'make all', temos os executáveis 'rsa' e 'gerarchaves'. Depois, 'make run' para gerar as chaves.
 
 ---
 
 **2. Geração de chaves**
-    Com './gerarchaves > chave.txt' temos as informações necessárias no arquivo texto. No teste foi obtido:
+    Com o primeiro passo feito, temos as informações necessárias no arquivo texto 'chaves.txt'. No teste foi obtido:
 
     10
     
